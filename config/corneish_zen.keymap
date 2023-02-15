@@ -21,39 +21,39 @@
 // | SHFT |  J  |  [  |  ]  |  K  |  /  |   |  W  |  F   |  L  |  P  |  V  | ESC  |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp H &kp O &kp U &kp X   &kp G &kp C  &kp M     &kp R   &kp Z    &kp BSPC
-   &kp LCTRL &kp Y &kp I &kp E &kp A &kp DOT   &kp D &kp S  &kp T     &kp N   &kp B &kp SEMI
-   &kp LSHFT &kp J &kp LBKT &kp RBKT &kp K &kp FSLH   &kp W &kp F  &kp L &kp P &kp V &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+   &kp TAB   &kp Q &kp H    &kp O    &kp U  &kp X       &kp G    &kp C  &kp M &kp R &kp Z &kp BSPC
+   &kp LCTRL &kp Y &kp I    &kp E    &kp A  &kp DOT     &kp D    &kp S  &kp T &kp N &kp B &kp SEMI
+   &kp LSHFT &kp J &kp LBKT &kp RBKT &kp K  &kp FSLH    &kp W    &kp F  &kp L &kp P &kp V &kp ESC
+                            &kp LGUI &mo 1  &kp SPACE   &kp RET  &mo 2  &kp RALT
                         >;
                 };
                 lower_layer {
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// | /    |  :  |  <  |  =  |  >  |  *  |   |  |  |  [  |  _  |  ]  |  ˜  |      |
-// | SHFT |  \  |  (  |  -  |  )  |  +  |   |  %  |  {  |  ;  |  }  |  &  |      |
+// | /    |  :  |  <  |  =  |  >  |  ,  |   |  |  |  [  |  _  |  ]  |  ˜  |      |
+// | SHFT |  \  |  (  |  -  |  )  |  *  |   |  %  |  {  |  +  |  }  |  &  |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kp FSLH   &kp COLON    &kp LT       &kp EQUAL    &kp GT       &kp ASTERISK   &kp PIPE &kp LBKT &kp UNDERSCORE &kp RBKT &kp TILDE &trans
-   &kp LSHFT  &kp BSLH     &kp LPAR     &kp MINUS    &kp RPAR     &kp PLUS       &kp PRCNT   &kp LBRC   &kp SEMI  &kp RBRC &kp AMPS &trans
-                          	        &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
+   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7    &kp N8         &kp N9   &kp N0    &kp BSPC
+   &kp FSLH   &kp COLON    &kp LT       &kp EQUAL    &kp GT       &kp COMMA      &kp PIPE   &kp LBKT  &kp UNDERSCORE &kp RBKT &kp TILDE &trans
+   &kp LSHFT  &kp BSLH     &kp LPAR     &kp MINUS    &kp RPAR     &kp ASTERISK   &kp PRCNT  &kp LBRC  &kp PLUS       &kp RBRC &kp AMPS  &trans
+                          	        &kp LGUI     &trans       &kp SPACE      &kp RET    &trans    &kp RALT
                         >;
                 };
 
                 raise_layer {
                         label = "SYMBOL";
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+// |  TAB |     |  UP |     |     |     |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL | LEFT| DOWN|RIGHT|     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
+// | SHFT |  !  |  @  |  #  |  $  |  %  |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &trans &kp UP &trans &trans &trans   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
-   &kp LCTRL &kp LEFT   &kp DOWN &kp RIGHT   &trans      &trans      &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &kp LSHFT &kp EXCL   &kp AT   &kp HASH    &kp DOLLAR  &kp PERCENT      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
-                    	     &kp LGUI &trans   &kp SPACE &kp RET   &trans    &kp RALT
+   &kp  TAB  &trans     &kp UP   &trans     &trans      &trans       &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+   &kp LCTRL &kp LEFT   &kp DOWN &kp RIGHT  &trans      &trans       &kp MINUS &kp EQUAL &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
+   &kp LSHFT &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR  &kp PERCENT  &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
+                    	         &kp LGUI   &trans      &kp SPACE    &kp RET   &trans    &kp RALT
                         >;
                 };
         };
