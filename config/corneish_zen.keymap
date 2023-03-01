@@ -32,12 +32,12 @@
 // -----------------------------------------------------------------------------------------
 // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | SHFT |  :  |  <  |  =  |  >  |  ,  |   |  |  |  [  |  _  |  ]  |  ˜  |      |
-// |  !   |  \  |  (  |  -  |  )  |  *  |   |  %  |  {  |  +  |  }  |  &  |      |
+// |   '  |  \  |  (  |  -  |  )  |  *  |   |  %  |  {  |  +  |  }  |  &  |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7    &kp N8         &kp N9   &kp N0    &kp BSPC
    &kp LSHFT   &kp COLON    &kp LT       &kp EQUAL    &kp GT       &kp COMMA      &kp PIPE   &kp LBKT  &kp UNDERSCORE &kp RBKT &kp TILDE &trans
-   &kp EXCL  &kp BSLH     &kp LPAR     &kp MINUS    &kp RPAR     &kp ASTERISK   &kp PRCNT  &kp LBRC  &kp PLUS       &kp RBRC &kp AMPS  &trans
+   &kp APOS  &kp BSLH     &kp LPAR     &kp MINUS    &kp RPAR     &kp ASTERISK   &kp PRCNT  &kp LBRC  &kp PLUS       &kp RBRC &kp AMPS  &trans
                           	        &kp LGUI     &trans       &kp SPACE      &kp RET    &trans    &kp RALT
                         >;
                 };
